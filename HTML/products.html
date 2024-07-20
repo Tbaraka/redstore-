@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All products -Red store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/54419a58d0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png" alt="logo" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="cart.png"width="30px" height="30px" alt="cart">
+                <img src="menu.png"class="menu" onclick="menutoggle()">
+            </div>
+        </div>   
+<div class="small-container">
+
+    <div class="row row-2">
+        <h2>All products</h2>
+        <select>
+            <option>Default sorting</option>
+            <option>Sort by price</option>
+            <option>Sort by popularity</option>
+            <option>Sort by rating</option>
+            <option>Sort by sale</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="product-1.jpg" alt="Red Printed t-shirt">
+            <h4>Red printed t-shirt</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="product-2.jpg" alt="Black running shoes">
+            <h4>Black running shoes</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="product-3.jpg" alt="Grey sweatpants">
+            <h4>Grey sweatpants</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="product-4.jpg" alt="Navy blue shirt">
+            <h4>Navy blue shirt</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="product-5.jpg" alt="Unisex grey sneakers">
+            <h4>Unisex grey sneakers</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="product-6.jpg" alt="Black shirt">
+            <h4>Black shirt</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="product-7.jpg" alt="Unisex hrx socks">
+            <h4>Unisex hrx socks</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="product-8.jpg" alt="Stylish black Fossil watch">
+            <h4>Stylish black Fossil watch</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="product-9.jpg" alt="Stylish black roadster watch">
+            <h4>Stylish black roadster watch</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="product-10.jpg" alt="Black and red running shoes">
+            <h4>Black and red running shoes</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="product-11.jpg" alt="Grey running shoes">
+            <h4>Grey running shoes</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="product-12.jpg" alt="Black shirt">
+            <h4>Black shirt</h4>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+
+<!------ js for toggle menu ------>
+<script>
+  // Assuming your menu element has the ID "menuItems" (lowercase m)
+  var menuItems = document.getElementById("MenuItems"); // Corrected element selection
+
+  menuItems.style.maxHeight = "0px"; // Initial state
+
+  function menutoggle() { // Corrected function name (camelCase)
+    if (menuItems.style.maxHeight === "0px") { // Corrected comparison (===)
+      menuItems.style.maxHeight = "200px";
+    } else {
+      menuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+
+</body>
+</html>
